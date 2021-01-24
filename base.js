@@ -1,6 +1,7 @@
 var request;
 
-$("#submit").click(function(){
+$("#submit").click(function(e){
+    e.preventDefault();
     var textarea = $('textarea#htmlcode').val();
 
 
@@ -14,11 +15,14 @@ $("#submit").click(function(){
     })
 })
 
-$("#resetValue").click(function(){
+$("#resetValue").click(function(e){
+    e.preventDefault();
     $('textarea#htmlcode').val("");
+    $('textarea#htmlconvert').val("");
 })
 
-$('#copyclip').click(function(){
+$('#copyclip').click(function(e){
+    e.preventDefault();
     var copytext = $('textarea#htmlconvert');
     copytext.select();
     document.execCommand("copy");

@@ -1,0 +1,40 @@
+body {
+    font-family: cursive;
+    line-height: 1.8;
+    background-color: cadetblue;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1, h3 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #075366;
+    color: #ffffff;
+    padding: 60px 25px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.box {
+    border-radius: 25px;
+    border: 1px dotted;
+    padding: 20px;
+    height: 1000px;
+    background-color: #d7e9ee;
+    color: black;
+}
+
+.card {
+    padding-bottom: 15px;
+}
+
+.btn{
+    margin: 8px;
+}
