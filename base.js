@@ -6,7 +6,7 @@ $("#submit").click(function(e){
 
 
     request = $.ajax({
-        url: "convert.html",
+        url: "convert.php",
         type: "post",
         data: {keyword: textarea},
         success: function(data){
